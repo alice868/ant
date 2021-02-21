@@ -1,0 +1,156 @@
+[     1.000000] Copyright (c) 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005,
+[     1.000000]     2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017,
+[     1.000000]     2018, 2019, 2020 The NetBSD Foundation, Inc.  All rights reserved.
+[     1.000000] Copyright (c) 1982, 1986, 1989, 1991, 1993
+[     1.000000]     The Regents of the University of California.  All rights reserved.
+
+[     1.000000] NetBSD 9.0 (GENERIC) #3: Tue Feb 18 19:19:00 HKT 2020
+[     1.000000] 	hello@nb0.my.net:/usr/src/sys/arch/amd64/compile/obj/GENERIC
+[     1.000000] total memory = 1023 MB
+[     1.000000] avail memory = 970 MB
+[     1.000000] cpu_rng: RDSEED
+[     1.000000] rnd: seeded with 256 bits
+[     1.000000] timecounter: Timecounters tick every 10.000 msec
+[     1.000000] Hyper-V Version: 10.0.18362 [SP1]
+[     1.000000]   Features=0x2e7f<VPRUNTIME,TMREFCNT,SYNIC,SYNTM,APIC,HYPERCALL,VPINDEX,REFTSC,IDLE,TMFREQ>
+[     1.000000]   PM Features=0x0 [C2]
+[     1.000000]   Features3=0xbed7b2<DEBUG,XMMHC,IDLE,NUMA,TMFREQ,SYNCMC,CRASH,NPIEP>
+[     1.000000]   Recommends: 00020c2c 00000fff
+[     1.000000]   Limits: Vcpu:240 Lcpu:512 Int:1608
+[     1.000000]   HW Features: 0000000f, AMD: 00000000
+[     1.000000] timecounter: Timecounter "Hyper-V" frequency 10000000 Hz quality 2000
+[     1.000003] timecounter: Timecounter "Hyper-V-TSC" frequency 10000000 Hz quality 3000
+[     1.000011] Kernelized RAIDframe activated
+[     1.000011] running cgd selftest aes-xts-256 aes-xts-512 done
+[     1.000011] timecounter: Timecounter "i8254" frequency 1193182 Hz quality 100
+[     1.000011] Microsoft Corporation Virtual Machine (7.0)
+[     1.000011] mainbus0 (root)
+[     1.000011] ACPI: RSDP 0x00000000000F5C00 000014 (v00 ACPIAM)
+[     1.000011] ACPI: RSDT 0x000000003FFF0000 000040 (v01 VRTUAL MICROSFT 12001807 MSFT 00000097)
+[     1.000011] ACPI: FACP 0x000000003FFF0200 000081 (v02 VRTUAL MICROSFT 12001807 MSFT 00000097)
+[     1.000011] ACPI: DSDT 0x000000003FFF1D24 003CD5 (v01 MSFTVM MSFTVM02 00000002 INTL 02002026)
+[     1.000011] ACPI: FACS 0x000000003FFFF000 000040
+[     1.000011] ACPI: WAET 0x000000003FFF1A80 000028 (v01 VRTUAL MICROSFT 12001807 MSFT 00000097)
+[     1.000011] ACPI: SLIC 0x000000003FFF1AC0 000176 (v01 VRTUAL MICROSFT 12001807 MSFT 00000097)
+[     1.000011] ACPI: OEM0 0x000000003FFF1CC0 000064 (v01 VRTUAL MICROSFT 12001807 MSFT 00000097)
+[     1.000011] ACPI: SRAT 0x000000003FFF0800 0000F0 (v02 VRTUAL MICROSFT 00000001 MSFT 00000001)
+[     1.000011] ACPI: APIC 0x000000003FFF0300 000062 (v01 VRTUAL MICROSFT 12001807 MSFT 00000097)
+[     1.000011] ACPI: OEMB 0x000000003FFFF040 000064 (v01 VRTUAL MICROSFT 12001807 MSFT 00000097)
+[     1.000011] ACPI: 1 ACPI AML tables successfully acquired and loaded
+[     1.000011] ioapic0 at mainbus0 apid 0: pa 0xfec00000, version 0x11, 24 pins
+[     1.000011] cpu0 at mainbus0 apid 0
+[     1.000011] cpu0: Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz, id 0x806ea
+[     1.000011] cpu0: package 0, core 0, smt 0
+[     1.000011] cpu1 at mainbus0 apid 1
+[     1.000011] cpu1: Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz, id 0x806ea
+[     1.000011] cpu1: package 0, core 0, smt 1
+[     1.000011] acpi0 at mainbus0: Intel ACPICA 20190405
+[     1.000011] acpi0: X/RSDT: OemId <VRTUAL,MICROSFT,12001807>, AslId <MSFT,00000097>
+[     1.000011] LNKA: ACPI: Found matching pin for 0.8.INTA at func 0: 11
+[     1.000011] acpi0: SCI interrupting at int 9
+[     1.000011] acpi0: fixed power button present
+[     1.000011] timecounter: Timecounter "ACPI-Safe" frequency 3579545 Hz quality 900
+[     1.000011] attimer1 at acpi0 (TMR, PNP0100): io 0x40-0x43 irq 0
+[     1.000011] pckbc1 at acpi0 (PS2K, PNP0303) (kbd port): io 0x60,0x64 irq 1
+[     1.000011] pckbc2 at acpi0 (PS2M, PNP0F03) (aux port): irq 12
+[     1.000011] pcppi1 at acpi0 (SPKR, PNP0800): io 0x61
+[     1.000011] spkr0 at pcppi1: PC Speaker
+[     1.000011] wsbell at spkr0 not configured
+[     1.000011] midi0 at pcppi1: PC speaker
+[     1.000011] sysbeep0 at pcppi1
+[     1.000011] UAR1 (PNP0501) at acpi0 not configured
+[     1.000011] UAR2 (PNP0501) at acpi0 not configured
+[     1.000011] FDC (PNP0700) at acpi0 not configured
+[     1.000011] SYSR (PNP0C02) at acpi0 not configured
+[     1.000011] OSYS (PNP0C02) at acpi0 not configured
+[     1.000011] vmbus0 at acpi0 (VMB8, VMBUS-0): Hyper-V VMBus
+[     1.000011] vmbus0: protocol 3.0
+[     1.000011] "dynamic-memory" at vmbus0 not configured
+[     1.000011] "avma-4" at vmbus0 not configured
+[     1.000011] "mouse" at vmbus0 not configured
+[     1.000011] "keyboard" at vmbus0 not configured
+[     1.000011] "video" at vmbus0 not configured
+[     1.000011] "avma-2" at vmbus0 not configured
+[     1.000011] "file-copy" at vmbus0 not configured
+[     1.000011] hvheartbeat0 at vmbus0: Hyper-V Heartbeat Service
+[     1.000011] "kvp" at vmbus0 not configured
+[     1.000011] hvshutdown0 at vmbus0: Hyper-V Guest Shutdown Service
+[     1.000011] hvtimesync0 at vmbus0: Hyper-V Time Synchronization Service
+[     1.000011] "vss" at vmbus0 not configured
+[     1.000011] "remote-desktop" at vmbus0 not configured
+[     1.000011] hvs0 at vmbus0: Hyper-V StorVSC IDE
+[     1.000011] hvs0: protocol 6.2
+[     1.000011] scsibus0 at hvs0: 2 targets, 1 lun per target
+[     1.000011] hvs1 at vmbus0: Hyper-V StorVSC IDE
+[     1.000011] hvs1: protocol 6.2
+[     1.000011] scsibus1 at hvs1: 2 targets, 1 lun per target
+[     1.000011] hvn0 at vmbus0: Hyper-V NetVSC
+[     1.000011] hvn0: NVS 5.0 NDIS 6.30
+[     1.000011] hvn0: Ethernet address 00:15:5d:1e:8e:1c
+[     1.000011] hvs2 at vmbus0: Hyper-V StorVSC SCSI
+[     1.000011] hvs2: protocol 6.2
+[     1.000011] scsibus2 at hvs2: 2 targets, 64 luns per target
+[     1.000011] SYSM (PNP0C01) at acpi0 not configured
+[     1.000011] GENC (HYPER_V_GEN_COUNTER_V1) at acpi0 not configured
+[     1.000011] ACPI: Enabled 1 GPEs in block 00 to 0F
+[     1.000011] pckbd0 at pckbc1 (kbd slot)
+[     1.000011] pckbc1: using irq 1 for kbd slot
+[     1.000011] wskbd0 at pckbd0: console keyboard
+[     1.000011] pms0 at pckbc1 (aux slot)
+[     1.000011] pckbc1: using irq 12 for aux slot
+[     1.000011] wsmouse0 at pms0 mux 0
+[     1.000011] attimer1: attached to pcppi1
+[     1.000011] pci0 at mainbus0 bus 0: configuration mode 1
+[     1.000011] pci0: This pci host supports neither MSI nor MSI-X.
+[     1.000011] pci0: i/o space, memory space enabled, rd/line, rd/mult, wr/inv ok
+[     1.000011] pchb0 at pci0 dev 0 function 0: vendor 8086 product 7192 (rev. 0x03)
+[     1.000011] pcib0 at pci0 dev 7 function 0: vendor 8086 product 7110 (rev. 0x01)
+[     1.000011] piixide0 at pci0 dev 7 function 1: Intel 82371AB IDE controller (PIIX4) (rev. 0x01)
+[     1.000011] piixide0: bus-master DMA support present
+[     1.000011] piixide0: primary channel wired to compatibility mode
+[     1.000011] piixide0: primary channel interrupting at ioapic0 pin 14
+[     1.000011] atabus0 at piixide0 channel 0
+[     1.000011] piixide0: secondary channel wired to compatibility mode
+[     1.000011] piixide0: secondary channel interrupting at ioapic0 pin 15
+[     1.000011] atabus1 at piixide0 channel 1
+[     1.000011] piixpm0 at pci0 dev 7 function 3: vendor 8086 product 7113 (rev. 0x02)
+[     1.000011] timecounter: Timecounter "piixpm0" frequency 3579545 Hz quality 900
+[     1.000011] piixpm0: 24-bit timer
+[     1.000011] piixpm0: SMBus disabled
+[     1.000011] vga0 at pci0 dev 8 function 0: vendor 1414 product 5353 (rev. 0x00)
+[     1.000011] wsdisplay0 at vga0 kbdmux 1: console (80x25, vt100 emulation), using wskbd0
+[     1.000011] wsmux1: connecting to wsdisplay0
+[     1.000011] drm at vga0 not configured
+[     1.000011] isa0 at pcib0
+[     1.000011] com0 at isa0 port 0x3f8-0x3ff irq 4: ns16550a, working fifo
+[     1.000011] com1 at isa0 port 0x2f8-0x2ff irq 3: ns16550a, working fifo
+[     1.000011] fdc0 at isa0 port 0x3f0-0x3f7 irq 6 drq 2
+[     1.000011] acpicpu0 at cpu0: ACPI CPU
+[     1.000011] acpicpu0: C1: HLT, lat   0 us, pow     0 mW
+[     1.000011] hyperv0 at cpu0: Hyper-V
+[     1.000011] acpicpu1 at cpu1: ACPI CPU
+[     1.000011] timecounter: Timecounter "clockinterrupt" frequency 100 Hz quality 0
+[     4.969636] fd0 at fdc0 drive 0: 1.44MB, 80 cyl, 2 head, 18 sec
+[     4.975828] sd0 at scsibus0 target 1 lun 0: <Msft, Virtual Disk, 1.0> disk fixed
+[     4.975828] IPsec: Initialized Security Association Processing.
+[     4.975828] sd0: fabricating a geometry
+[     4.975828] sd0: 51200 MB, 51200 cyl, 64 head, 32 sec, 512 bytes/sect x 104857600 sectors
+[     4.975828] sd0: fabricating a geometry
+[     5.045834] sd0: async, 8-bit transfers, tagged queueing
+[     9.765839] wd at atabus0 drive 0 not configured
+[     9.765839] atapibus0 at atabus1: 2 targets
+[     9.765839] cd0 at atapibus0 drive 0: <Virtual CD, , > cdrom removable
+[     9.775858] cd0: 32-bit data port
+[     9.775858] cd0: drive supports PIO mode 4, DMA mode 2
+[     9.775858] wd at atabus1 drive 1 not configured
+[     9.775858] cd0(piixide0:1:0): using PIO mode 4, DMA mode 2 (using DMA)
+[    10.045900] boot device: sd0
+[    10.045900] root on sd0a dumps on sd0b
+[    10.455889] root file system type: ffs
+[    10.786140] kern.module.path=/stand/amd64/9.0/modules
+[   716.515937] wsdisplay0: screen 1 added (80x25, vt100 emulation)
+[   716.515937] wsdisplay0: screen 2 added (80x25, vt100 emulation)
+[   716.515937] wsdisplay0: screen 3 added (80x25, vt100 emulation)
+[   716.526003] wsdisplay0: screen 4 added (80x25, vt100 emulation)
+[ 248176.437510] hvs2: short read: 48
+[ 248176.446729] vmbus0: revoking channel 8
