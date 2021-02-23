@@ -6,3 +6,6 @@ Bob forked it and cloned locally.
 Will do some documentation later.
 
 Some modifications is in docs/
+
+pull request from Bob merged.
+
